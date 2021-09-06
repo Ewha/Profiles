@@ -16,7 +16,7 @@ jobs:
     - name: iEwha-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "https://github.com/iEwha/QuantumultX.git"
+        source_repo: "https://github.com/iEwha/Profiles.git"
         source_branch: "master"
         destination_branch: "master"
         github_token: ${{ secrets.PAT }}
